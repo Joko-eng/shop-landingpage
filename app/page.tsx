@@ -8,9 +8,13 @@ export default function HomePage() {
    <>
       <div className="bg-gray-300">
         <Navbar />
+        <div className="pt-20"> {/* memberi jarak dari atas */}
         <HeroSection />
       </div>
-      <CategorySection />
+      </div>
+      <div id="categories" className="pt-8">
+        <CategorySection />
+      </div>
     </>
   );
 }
