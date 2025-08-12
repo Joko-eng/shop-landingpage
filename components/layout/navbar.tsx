@@ -19,8 +19,8 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full rounded-2xl bg-white">
-      <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6 bg-blue-400 rounded-2xl">
+    <nav className="w-full">
+      <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6 bg-blue-400 rounded-2xl">
         
         {/* Logo */}
         <Link
